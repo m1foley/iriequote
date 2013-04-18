@@ -1,0 +1,5 @@
+https://github.com/kylejginavan/youtube_it
+
+client = YouTubeIt::Client.new
+video_id = %w(...).sample
+@comment = client.comments(video_id).sample
